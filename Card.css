@@ -95,7 +95,7 @@ header {
 .counters {
   display: flex;
   justify-content: space-evenly;
-  margin: 3rem 0;
+  margin: 10rem 0 0 0;
 }
 #comunityimg,
 #msgimg {
@@ -167,7 +167,6 @@ main {
 
 .bottombg img {
   display: block;
-  width: ;
 }
 .box1,
 .box3 {
@@ -365,6 +364,10 @@ border-top-right-radius: 20%; */
     font-size: 3rem;
   }
 
+.counter2{
+  margin-top: 3rem;
+}
+
   .box1content p,
   .box2content p,
   .box3content p {
@@ -394,10 +397,10 @@ border-top-right-radius: 20%; */
     margin-top: 1rem;
   }
   .bgtop {
-    height: 15vh;
+    height: 25vh;
     padding: auto;
     background-image: url(./images/bg-footer-top-mobile.svg);
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
   }
